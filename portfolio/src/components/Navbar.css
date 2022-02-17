@@ -1,0 +1,21 @@
+ul {
+    margin-top: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 2.375rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+li:nth-child(1) > a:hover{ color: #898CFF; }
+li:nth-child(2) > a:hover { color: #67EEBD; }
+li:nth-child(3) > a:hover { color: #ED6D79; }
+li:nth-child(4) > a:hover { color: #25B1D5; }
+li:nth-child(5) > a:hover { color: #FE1E5E; }
