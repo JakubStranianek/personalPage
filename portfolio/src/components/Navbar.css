@@ -1,5 +1,4 @@
 ul {
-    margin-top: 0;
     display: flex;
 }
 
@@ -12,10 +11,13 @@ a {
     text-decoration: none;
     font-size: 20px;
     color: white;
+    position: relative;
+    font-weight: 500;
+    z-index: 9999;
 }
 
 li:nth-child(1) > a:hover{ color: #898CFF; }
 li:nth-child(2) > a:hover { color: #67EEBD; }
-li:nth-child(3) > a:hover { color: #ED6D79; }
+li:nth-child(3) > a:hover { color: #ffbc42; }
 li:nth-child(4) > a:hover { color: #25B1D5; }
-li:nth-child(5) > a:hover { color: #FE1E5E; }
+li:nth-child(5) > a:hover { color: #d81159; }
