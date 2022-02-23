@@ -22,3 +22,21 @@
 .Main > div:nth-child(1) ,img {
     margin-top: 40px;
 }
+
+@media (max-width: 740px) {
+    .heading1 {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 550px) {
+    .heading1 {
+        font-size: 38px;
+    }
+
+    .Main > div:nth-child(1) ,img {
+        width: 250px;
+    }
+}
+
+  

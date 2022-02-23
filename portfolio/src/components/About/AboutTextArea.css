@@ -21,3 +21,26 @@ article, h1, .btnCV {
     height: 50px;
     font-weight: 400;
 }
+
+@media (max-width: 990px) {
+    article {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 740px) {
+    .ml30 {
+        margin-left: 0;
+    }
+
+    .btnCV {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .ml30 {
+        width: 85%;
+    }
+}

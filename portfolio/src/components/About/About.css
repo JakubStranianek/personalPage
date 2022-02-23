@@ -13,3 +13,18 @@
     justify-content: center;
     z-index: 9999;
 }
+
+@media (max-width: 990px) {
+    .AboutArea {
+        width: 90%;
+    }
+}
+
+@media (max-width: 740px) {
+    .About {
+        height: 130vh;
+    } 
+    .AboutArea {
+        flex-direction: column;
+    }
+}

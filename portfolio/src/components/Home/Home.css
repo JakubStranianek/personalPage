@@ -32,3 +32,36 @@
     position: absolute !important;
     height: 100vh !important;
 }
+
+@media (max-width: 990px) {
+    .Home {
+        height: 140vh;
+    }
+
+    .HomeHeader {
+        height: 10vh;
+    }
+
+    .HomeMain {
+        flex-direction: column;   
+        height: 100vh; 
+    }
+
+    .HomeFooter {
+        height: 30vh; 
+    }
+}
+
+@media (max-width: 550px) {
+    .Home {
+        height: 120vh;
+    }
+
+    .HomeMain { 
+        height: 75vh; 
+    }
+
+    .HomeFooter {
+        height: 30vh; 
+    }
+}
