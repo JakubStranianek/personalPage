@@ -27,11 +27,24 @@
     .heading1 {
         font-size: 64px;
     }
+
+    .letterSp8 {
+        letter-spacing: 4px;
+    }
+    
+    .letterSp24 {
+        letter-spacing: 20px;
+    }
 }
 
 @media (max-width: 550px) {
     .heading1 {
         font-size: 38px;
+    }
+
+    
+    .letterSp24 {
+        letter-spacing: 10px;
     }
 
     .Main > div:nth-child(1) ,img {
