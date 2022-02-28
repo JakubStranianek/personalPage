@@ -1,0 +1,55 @@
+<div className="grid-Item" id={index.id}>
+                    <div className="outerCircle">
+                        <div className="innerCircle">
+                            <h2>{index.percentage}</h2>
+                        </div>
+                    </div>
+                    <h2>{index.name}</h2>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="210px" height="210px" >
+         <defs>
+            <linearGradient id={"GradientColor" + index.id}>
+               <stop offset="0%" stopColor={index.startColor} />
+               <stop offset="100%" stopColor={index.endColor} />
+            </linearGradient>
+         </defs>
+         <circle cx="105" cy="100" r="88" strokeLinecap="round" stroke={"url(#GradientColor" + index.id + ")"}/>
+        </svg>
+
+                </div> 
+
+
+
+
+
+
+<CircularProgressbar 
+                    value={index.percentage} 
+                    text={`${index.percentage}%`}
+                    strokeWidth="12"
+                    styles={buildStyles({
+                        // Rotation of path and trail, in number of turns (0-1)
+                        rotation: 0.25,
+                    
+                        // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
+                        strokeLinecap: 'round',
+                    
+                        // Text size
+                        textSize: '16px',
+                        
+                    
+                        // How long animation takes to go from one percentage to another, in seconds
+                        pathTransitionDuration: 0.5,
+                    
+                        // Can specify path transition in more detail, or remove it entirely
+                        // pathTransition: 'none',
+                    
+                        // Colors
+                        pathColor: `rgba(0,0,0, 0.8)`,
+                        textColor: '#fff',
+                        trailColor: '#fff'
+                    })}
+                    />
+                </div>
+                <h2>{index.name}</h2>
+            </div>

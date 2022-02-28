@@ -17,53 +17,22 @@
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-.outerCircle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 220px;
+    height: 220px;
     margin-bottom: 20px;
-    box-shadow: 6px 6px 5px -1px rgba(255, 255, 255, 0.7),
-    -6px -6px 5px -1px rgba(255, 255, 255, 0.2);
 }
 
-.grid-Item > .circle > h2 {
-    margin-top: 20px;
-}
-
-.innerCircle {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: #1B181B;
+.flexGrid {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 4px 4px 6px -1px rgba(255, 255, 255, 0.7),
-    inset -4px -4px 3px -1px rgba(255, 255, 255, 0.2);
+    flex-direction: column;
 }
 
-circle {
-    fill: none;
-    stroke-width: 26px;
-    stroke-dasharray: 550;
-    stroke-dashoffset: 550;
-    animation: ani 2s forwards;
+.CircularProgressbar-text {
+    font-weight: bold;
+    transform: translate(-15px, 5px);
 }
 
-svg { 
-    position: absolute;
-    top: 0;
-}
 
-@keyframes ani {
-    100% {
-        stroke-dashoffset: 110;
-    }
-}
 
