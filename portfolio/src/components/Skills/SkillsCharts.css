@@ -1,5 +1,4 @@
 .chartWrapper {
-    position: relative;
     width: 80%;
     display: grid; 
     grid-auto-columns: 1fr; 
@@ -34,5 +33,20 @@
     transform: translate(-15px, 5px);
 }
 
+@media (max-width: 740px) {
+    .chartWrapper {
+        width: 100%;
+        grid-template-columns: 0.5fr 0.5fr; 
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;  
+        grid-template-areas: 
+          "grid-Item1 grid-Item2" 
+          "grid-Item3 grid-Item4" 
+          "grid-Item5 grid-Item6"; 
+      }
+}  
 
-
+@media (max-width: 550px) {
+    .grid-Item {
+         
+    }
+}  

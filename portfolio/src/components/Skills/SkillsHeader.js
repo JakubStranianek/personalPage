@@ -1,8 +1,11 @@
 import "./SkillsHeader.css"
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function SkillsHeader() {
     return (
-        <h3>Personal skills</h3>
+        <ScrollAnimation animateIn="fadeIn">
+            <h3>Personal skills</h3>
+        </ScrollAnimation>
     );
 }
 

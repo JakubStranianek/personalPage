@@ -7,3 +7,9 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+@media (max-width: 740px) {
+    .skills {
+        height: 150vh;
+    }
+}

@@ -1,5 +1,6 @@
 import "./SkillsCharts.css"
 import { CircularProgressBar } from "@tomik23/react-circular-progress-bar";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function SkillsCharts() {
     const charts = [
@@ -54,6 +55,7 @@ function SkillsCharts() {
                 <div className="grid-Item" id={index.id}>
                 <CircularProgressBar id={index.id}
                    percent={index.percentage}
+                   stroke={12}
                    fontColor={"white"}
                    fontSize={"16px"}
                    colorCircle={"white"}
@@ -67,7 +69,9 @@ function SkillsCharts() {
                    linearGradient={[index.startColor, index.endColor]}
                     />
                 </div>
-                <h2>{index.name}</h2>
+                <ScrollAnimation animateIn='fadeInRight' duration={0.5}>
+                    <h2>{index.name}</h2>
+                </ScrollAnimation>
             </div>
             )}
         </div>

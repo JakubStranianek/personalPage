@@ -1,0 +1,58 @@
+.container {  
+    display: grid;
+    grid-template-columns: 500px 100px 300px 300px;
+    grid-template-rows: 330px 230px 230px;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "img1 img1 img2 img3"
+      "img5 img4 img4 img3"
+      "img5 img6 img6 img6";
+      margin-right: auto;
+      margin-left: auto;
+  }
+  
+  .img1, .img2, .img3, .img4, .img5, .img6 {
+    background-color: #1B1B1B;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px -1px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .img1 { grid-area: img1;}
+  
+  .img2 { grid-area: img2;}
+  
+  .img3 { grid-area: img3;}
+  
+  .img4 { grid-area: img4;}
+  
+  .img5 { grid-area: img5;}
+  
+  .img6 { grid-area: img6;}
+  
+  .img1 > img {
+    margin: 0;
+    width: 480px;
+    height: 270px;
+  }
+
+  .img2 > img {
+    margin: 0;
+    width: 250px;
+    height: 250px;
+  }
+
+  .img4 > img {
+    margin: 0;
+    width: 350px;
+    height: 180px;
+  }
+
+  .img5 > img {
+    margin: 0;
+    width: 400px;
+    height: 400px;
+  }
