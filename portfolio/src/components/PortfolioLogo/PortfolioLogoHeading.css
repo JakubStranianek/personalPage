@@ -3,3 +3,16 @@ h4 {
     font-weight: 400;
     letter-spacing: 50px;
 }
+
+@media (max-width: 960px) {
+    h4 {
+        font-size: 32px;
+        letter-spacing: 30px;
+    }
+}
+
+@media (max-width: 740px) {
+    h4 {
+        letter-spacing: 16px;
+    }
+}

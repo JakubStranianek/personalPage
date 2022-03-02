@@ -8,5 +8,11 @@
     align-items: flex-end;
 }
 
+@media (max-width: 960px) {
+    .portfolioLogo {
+        height: 220vh;
+    }
+}
+
 
 

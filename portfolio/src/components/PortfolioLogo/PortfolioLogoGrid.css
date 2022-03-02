@@ -31,7 +31,7 @@
   
   .img5 { grid-area: img5;}
   
-  .img6 { grid-area: img6;}
+  .img6 { grid-area: img6;  justify-content: space-evenly;}
   
   .img1 > img {
     margin: 0;
@@ -45,6 +45,12 @@
     height: 250px;
   }
 
+  .img3 > img {
+    margin: 0;
+    width: 260px;
+    height: 350px;
+  }
+
   .img4 > img {
     margin: 0;
     width: 350px;
@@ -55,4 +61,100 @@
     margin: 0;
     width: 400px;
     height: 400px;
+  }
+
+  .img6 > img:nth-child(1) {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .img6 > img:nth-child(2) {
+    margin: 0;
+    width: 180px;
+    height: 180px;
+  }
+
+  @media (max-width: 1260px) {
+    .container {  
+      grid-template-columns: 300px 100px 200px 250px;
+    }
+
+    .img1 > img {
+      margin: 0;
+      width: 360px;
+      height: 200px;
+    }
+  
+    .img2 > img {
+      margin: 0;
+      width: 200px;
+      height: 200px;
+    }
+  
+    .img3 > img {
+      margin: 0;
+      width: 200px;
+      height: 280px;
+    }
+  
+    .img4 > img {
+      margin: 0;
+      width: 300px;
+      height: 170px;
+    }
+  
+    .img5 > img {
+      margin: 0;
+      width: 300px;
+      height: 300px;
+    }
+  
+    .img6 > img:nth-child(1) {
+      margin: 0;
+      width: 200px;
+      height: 200px;
+    }
+    
+    .img6 > img:nth-child(2) {
+      margin: 0;
+      width: 180px;
+      height: 180px;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .container {
+      grid-template-columns: 300px 300px; 
+      grid-template-rows: 300px 230px 200px 300px 300px; 
+      grid-template-areas: 
+        "img1 img1"
+        "img2 img3"
+        "img4 img3"
+        "img5 img5"
+        "img6 img6"; 
+    }
+
+    .img3 > img{ 
+      width: 240px;
+      height: 300px;
+    }
+
+    .img5 > img {
+      width: 270px;
+      height: 270px;
+    }
+  }
+
+
+  @media (max-width: 740px) {
+    .container {
+      grid-template-columns: 200px 200px;
+      grid-template-rows: 250px 230px 200px 300px 300px;
+    }
+
+    .img3 > img{ 
+      width: 180px;
+      height: 220px;
+    }
   }
