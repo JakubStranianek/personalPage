@@ -19,7 +19,7 @@
     letter-spacing: 24px;
 }
 
-.Main > div:nth-child(1) ,img {
+.Main > div:nth-child(1) {
     margin-top: 40px;
 }
 

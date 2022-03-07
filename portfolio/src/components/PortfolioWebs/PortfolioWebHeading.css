@@ -1,0 +1,17 @@
+.colorTextWhite {
+    color: white;
+}
+
+.width80 {
+    width: 80%;
+    margin-right: 120px;
+}
+
+@media (max-width: 1060px) {
+    .width80 {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+}
