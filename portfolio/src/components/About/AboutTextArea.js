@@ -6,15 +6,15 @@ function AboutTextArea() {
             <p>Who I am</p>
             <h1>About Me</h1>
             <article>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of. 
+            Hi there. My name is Jakub and im an ex computer science 
+            student from Zilina university. In my free time im focusing 
+            my time on graphic design in a form of pictures or other forms such as logos , billboards etc.
             </article>
             
             <article>
-            Type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap
-             into electronic typesetting, remaining essentially unchanged.
+            Im also selftaught web developer. Other than graphics and web 
+            development, i do enjoy playing sports , watching a good 
+            film and spending time with those who i care about. 
             </article>
 
             <button className="btnCV">DOWNLOAD CV</button>
