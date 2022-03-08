@@ -9,8 +9,17 @@ h2{
 }
 
 .border {
-    padding: 25px 30px;
     border: 1px solid #372F2F;
+}
+
+.border > h2 {
+    padding: 25px 30px;
+}
+
+.border:hover > h2:hover {
+    background-color: white;
+    color: #372F2F;
+    animation: fade 0.4s ease-in-out;
 }
 
 .scroll-down {
@@ -40,6 +49,16 @@ h2{
     top: 40%;
 }
 
+@keyframes fade { 
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes scroll-down {
     0% {
         opacity: 0;
@@ -61,11 +80,8 @@ h2{
 
 
 @media (max-width: 550px) {
-    .border {
-        padding: 20px 25px;
-    }
-
     h2 {
+        padding: 20px 25px;
         font-size: 20px;
     }
 }

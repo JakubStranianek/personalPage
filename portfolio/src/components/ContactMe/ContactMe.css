@@ -6,3 +6,10 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 740px) {
+    .contactMe {
+        height: 130vh;
+        flex-direction: column;
+    }
+}
