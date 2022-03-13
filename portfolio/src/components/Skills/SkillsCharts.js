@@ -7,42 +7,42 @@ function SkillsCharts() {
         {
             id: "1",
             name: "HTML",
-            percentage: "80",
+            percentage: 80,
             startColor: "#FE8500",
             endColor: "#FE4F00"
         },
         {
             id: "2",
             name: "CSS",
-            percentage: "80",
+            percentage: 80,
             startColor: "#1E79DE",
             endColor: "#4E32BB"
         },
         {
             id: "3",
             name: "JS",
-            percentage: "50",
+            percentage: 50,
             startColor: "#FFF301",
             endColor: "#FF9701"
         },
         {
             id: "4",
             name: "DATABASES",
-            percentage: "60",
+            percentage: 60,
             startColor: "#D7A1CD",
             endColor: "#8441DE"
         },
         {
             id: "5",
             name: "FIGMA",
-            percentage: "50",
+            percentage: 50,
             startColor: "#40C5A1",
             endColor: "#1D6B9E"
         },
         {
             id: "6",
             name: "ADOBE PS + AI",
-            percentage: "65",
+            percentage: 65,
             startColor: "#4DDDFE",
             endColor: "#DA4AFC"
         }
@@ -51,8 +51,8 @@ function SkillsCharts() {
     return (
         <div className="chartWrapper">
             {charts.map(index => 
-            <div className="flexGrid">
-                <div className="grid-Item" id={index.id}>
+            <div className="flexGrid" key={index.name + index.id}>
+                <div className="grid-Item" >
                 <CircularProgressBar id={index.id}
                    percent={index.percentage}
                    stroke={12}

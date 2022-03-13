@@ -60,8 +60,8 @@ export default function PortfolioWebSlider() {
         )} 
 
         <div className='btn-wrapper'>
-            <BtnSlider moveSlide={nextSlide} direction={"next"}/>
-            <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
+            <BtnSlider moveSlide={nextSlide} direction={"next"} />
+            <BtnSlider moveSlide={prevSlide} direction={"prev"} />
         </div>
 
         <div className='dots-container'>
