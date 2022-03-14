@@ -9,7 +9,7 @@
 
 @media (max-width: 740px) {
     .contactMe {
-        height: 130vh;
+        height: 140vh;
         flex-direction: column;
     }
 }

@@ -4,9 +4,10 @@ import HomeMain from "../Home/HomeMain"
 import HomeFooter from "../Home/HomeFooter"
 import ParticleBackground from "../Home/particleBackground";
 
+
 function Home() {
     return (
-        <div className="Home">
+        <div className="home">
             <ParticleBackground />
             <header className="HomeHeader">
                 <HomeNavbar />
@@ -17,7 +18,7 @@ function Home() {
         </main>
 
         <footer className="HomeFooter">
-            <HomeFooter />
+            <HomeFooter/>
         </footer>
         </div>
     );

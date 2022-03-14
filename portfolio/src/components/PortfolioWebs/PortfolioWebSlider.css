@@ -45,3 +45,9 @@
     background-color: #1B1B1B;
     border: 2px solid white;
 }
+
+@media (max-width: 1100px) {
+    .slider-container {
+        width: 85%;
+    }
+}

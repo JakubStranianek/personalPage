@@ -4,7 +4,7 @@ import { saveAs } from "file-saver";
 function AboutTextArea() {
     const saveFile = () => {
         saveAs(
-          "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "https://drive.google.com/file/d/1C5E6lG3JB5h3RW4kZIu3bZq_l-KBk3kG/view?usp=sharing",
           "StranianekCV.pdf"
         );
       }

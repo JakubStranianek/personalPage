@@ -32,5 +32,6 @@
     .contactPhone {
         width: 300px;
         height: 65vh;
+        margin-top: 40px;
     }
 }

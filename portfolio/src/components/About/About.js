@@ -4,8 +4,8 @@ import AboutTextArea from "../About/AboutTextArea"
 
 function Main(){
     return (
-        <div className="About">
-            <div className="AboutArea">
+        <div className="about">
+            <div className="aboutArea">
                 <AboutPhoto />
                 <AboutTextArea/>
             </div>
