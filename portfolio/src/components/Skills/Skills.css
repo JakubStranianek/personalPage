@@ -16,6 +16,12 @@
 
 @media (max-width: 540px) {
     .skills {
-        height: 260vh;
+        height: 290vh;
     }
+}
+
+@media (max-width: 540px) and (max-height: 813px) {
+    .about {
+        height: 320vh;
+    } 
 }

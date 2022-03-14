@@ -43,9 +43,18 @@
           "grid-Item3 grid-Item4" 
           "grid-Item5 grid-Item6"; 
       }
+
+      .flexGrid {
+        width: 80%;
+      }
+
+      div.flexGrid > div > h2 {
+        font-size: 40px;
+        text-align: center;
+      }
 }  
 
-@media (max-width: 550px) {
+@media (max-width: 540px) {
     .chartWrapper {
         width: 60%;
         grid-template-columns: 0.5fr; 
