@@ -35,3 +35,9 @@
         margin-top: 40px;
     }
 }
+
+@media (max-width: 540px) {
+    .contactPhone {
+        width: 345px;
+    }
+}

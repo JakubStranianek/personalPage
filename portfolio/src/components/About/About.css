@@ -24,7 +24,8 @@
     .about {
         height: 130vh;
     } 
-    .AboutArea {
+    .aboutArea {
         flex-direction: column;
     }
 }
+

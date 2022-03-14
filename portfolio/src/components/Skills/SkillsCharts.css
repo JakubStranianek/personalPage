@@ -46,7 +46,16 @@
 }  
 
 @media (max-width: 550px) {
-    .grid-Item {
-         
-    }
+    .chartWrapper {
+        width: 60%;
+        grid-template-columns: 0.5fr; 
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;  
+        grid-template-areas: 
+          "grid-Item1" 
+          "grid-Item2" 
+          "grid-Item3" 
+          "grid-Item4" 
+          "grid-Item5" 
+          "grid-Item6"; 
+      }
 }  

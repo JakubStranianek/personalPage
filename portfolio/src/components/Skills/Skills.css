@@ -13,3 +13,9 @@
         height: 150vh;
     }
 }
+
+@media (max-width: 540px) {
+    .skills {
+        height: 260vh;
+    }
+}
