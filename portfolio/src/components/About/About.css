@@ -37,9 +37,14 @@
     } 
 }
 
-@media (max-width: 540px) and (max-height: 813px) {
+@media (max-width: 540px) and (max-height: 814px) {
+    .about {
+        height: 170vh;
+    } 
+}
+
+@media (max-width: 540px) and (max-height: 790px) {
     .about {
         height: 180vh;
     } 
 }
-

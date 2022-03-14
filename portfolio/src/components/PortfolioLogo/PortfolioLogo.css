@@ -20,10 +20,15 @@
     }
 }
 
+@media (max-width: 540px) and (max-height: 814px) {
+    .portfolioLogo {
+        height: 320vh;
+    } 
+}
 
-@media (max-width: 540px) and (max-height: 813px) {
-    .about {
-        height: 310vh;
+@media (max-width: 540px) and (max-height: 790px) {
+    .portfolioLogo {
+        height: 340vh;
     } 
 }
 
