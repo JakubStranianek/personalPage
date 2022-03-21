@@ -67,3 +67,15 @@
         width: 40px;
     }
 }
+
+@media (max-height: 1000px) {
+    .contactPhone {
+        height: 55vh;
+    }
+}
+
+@media (max-width: 740px) and (max-height: 1000px) {
+    .contactPhone {
+        width: 345px;
+    }
+}
